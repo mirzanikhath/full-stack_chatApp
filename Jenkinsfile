@@ -14,7 +14,7 @@ pipeline {
     stage('Code Check out') {
       steps {
         git branch: 'master',
-          url: 'https://github.com/iemafzalhassan/full-stack_chatApp.git'
+          url: 'https://github.com/mirzanikhath/full-stack_chatApp.git'
       }
     }
     stage('Code Quality') {
